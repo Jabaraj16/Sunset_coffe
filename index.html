@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <!-- cs -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet">
+    <!-- animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- fontawsome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand animate__animated animate__shakeX" href="#"><span
+              class="logo p-1">SUNSET COFFE</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#brew">Brew</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#visit">Visit</a>
+              </li>
+              <li class="nav-item">
+                
+                <a class="nav-link ms-3" href="#footer"><i class="fa-solid fa-cart-shopping"></i> Buy Theme</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="bg-img">
+        <img class="img-fluid img" src="./img/slide-sunset.jpg" alt>
+      </div>
+
+      <div class="content container-fluid ">
+        <div class="row " id="visit">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-fluid" width="400px" src="./img/visit-stores.jpg"
+              alt data-aos="fade-right">
+          </div>
+          <div class="col-lg-6 col-sm-12 cofe_description  text-start">
+            <h2 class="fw-bold heading_cofe">VISIT OUR CAFES</h2>
+            <p class>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <br> Suspendisse vitae massa velit, eu <br> laoreet massa. Sed ac
+              orci libero.</p>
+            <a href class="find_cafe_btn fw-semibold">FIND YOUR CAFE</a>
+          </div>
+        </div>
+
+        <div class="row d-flex flex-wrap-reverse" id="brew">
+          <div class="col-lg-6 col-sm-12 cofe_description2 ">
+            <div class="text-start  content_2  ">
+              <h2 class="fw-bold heading_cofe">LEARN TO BREW</h2>
+              <p class>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br> Suspendisse vitae massa velit, eu <br> laoreet massa. Sed
+                ac orci libero.</p>
+              <a href class="find_cafe_btn fw-semibold">SHOW ME HOW</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 ">
+            <img data-aos="fade-left" class="img-fluid" width="400px"
+              src="./img/make-coffee.jpg" alt>
+          </div>
+        </div>
+
+        <div class="row" id="shop">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-fluid" width="400px" src="./img/buy-coffee.jpg" alt
+              data-aos="fade-right">
+          </div>
+          <div class="col-lg-6 col-sm-12 cofe_description  text-start">
+            <h2 class="fw-bold heading_cofe">BUY THE BEAN</h2>
+            <p class>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <br> Suspendisse vitae massa velit, eu <br> laoreet massa. Sed ac
+              orci libero.</p>
+            <a href class="find_cafe_btn fw-semibold">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center mt-3 text-center">
+            <p><span class="text-light">MADE AT THE TIP OF AFRICA</span><span
+                class="f6 text-light"> <br>jabaraj &#169;</span></p>
+
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center mt-3">
+            <a href><i class="fa-brands fa-facebook  ps-2"
+                style="color: #dad2d2;"></i></a>
+            <a href><i class="fa-brands fa-instagram  ps-3"
+                style="color: #dad2d2;"></i></a>
+            <a href><i class="fa-brands fa-x-twitter ps-3"
+                style="color: #dad2d2;"></i></a>
+            <a href><i class="fa-brands fa-linkedin ps-3"
+                style="color: #dad2d2;"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- script aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="animation.js"></script>
+  <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/10136d6821.js"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

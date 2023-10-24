@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Mohave:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #e3e2e2;
+
+}
+.logo{
+    border:1px solid;
+}
+/* .bg-img{
+    background-image: url(./img/slide-sunset.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.content,.content_2{
+    text-align: center;
+}
+.cofe_description{
+    padding-top: 5%;
+}
+.find_cafe_btn{
+    text-decoration: none;
+    color: black;
+}
+.find_cafe_btn:hover{
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5%;
+}
+.cofe_description2{
+    padding-top: 5%;
+}
+/* .description{
+    margin-left: 3rem;
+} */
+@media screen and (min-width:992px){
+    .content_2{
+        margin-left:40%;
+        text-align: center;
+    }
+}
+.heading_cofe:hover{
+    color: orange;
+}
+footer{
+    background-color: #333333;
+    height:fit-content;
+}
